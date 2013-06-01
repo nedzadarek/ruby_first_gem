@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'hola_nedzadarek'
+puts HolaNedzadarek.hi(ARGV[0])
