@@ -1,5 +1,8 @@
 class HolaNedzadarek
-  def self.hi
-    puts "Hello world!"
+  require 'hola_nedzadarek/translator'
+  def self.hi(language = :english)
+    translator = Translator.new(language)
+    translator.hi
   end
+
 end
